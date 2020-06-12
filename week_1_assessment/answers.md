@@ -1,23 +1,32 @@
+# Question 1
+
 let = 'variable'
-# String
+String
 
 let = 5
-# Integer
+Integer
 
 let = [1, 2, 3]
-# Array
+Array
 
 let = {name: 'Viktor', age: 28}
-# Hashes
+Hashes
 
 let = :active
-
-# Symbol
+Symbol
 
 let = true
-# Boolean
+Boolean
 
 let = 3.2
+Float
 
-# Float
+# Question 2
+
+car1 = {wheels: 4, max_speed: 200, color: 'blue'}
+car2 = {wheels: 6, max_speed: 150, color: 'red'}
+
+vehicules = [car1, car2]
+
+vehicules[1][:color]
 
